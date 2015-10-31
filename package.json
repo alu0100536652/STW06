@@ -6,6 +6,8 @@
   "scripts": {
     "test": "./node_modules/karma/bin/karma start --single-run",
     "testf": "mocha test",
+    "mochacss": "curl https://raw.githubusercontent.com/mochajs/mocha/master/mocha.css -o test/lib/mocha.css",
+    "mochajs": "curl https://raw.githubusercontent.com/mochajs/mocha/master/mocha.js -o test/lib/mocha.js",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/lib/chai.js",
     "blanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js -o test/lib/blanket.js",
     "mochablanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js -o test/lib/mocha-blanket.js",
