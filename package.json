@@ -1,0 +1,48 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "API REST EXPRESSJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "testf": "mocha test",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/lib/chai.js",
+    "blanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js -o test/lib/blanket.js",
+    "mochablanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js -o test/lib/mocha-blanket.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.17.1.js -o test/lib/sinon-1.17.1.js",
+    "index": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/index.html -o views/index.html",
+    "normalize": "curl https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css -o public/assets/stylesheets/normalize.css",
+    "skeleton": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/css/skeleton.css -o public/assets/stylesheets/skeleton.css",
+    "customcss": "touch public/assets/stylesheets/custom.css",
+    "favicon": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/images/favicon.png -o public/assets/images/favicon.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100536652/STW06.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "rest"
+  ],
+  "author": "David Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100536652/STW06/issues"
+  },
+  "homepage": "https://github.com/alu0100536652/STW06#readme",
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^3.3.0",
+    "express": "^4.13.3",
+    "nodemon": "^1.8.0",
+    "karma": "^0.13.14",
+    "karma-chai": "^0.1.0",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "sinon": "^1.17.1"
+  }
+}
