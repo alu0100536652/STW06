@@ -8,6 +8,10 @@ app.get('/', function(req, res){
   res.render('pages/index.ejs');
 });
 
+app.post('/', function(req, res){
+  
+});
+
 app.get('*', function(req, res){
   res.sendFile('public/404.html' , { root : __dirname});
 });

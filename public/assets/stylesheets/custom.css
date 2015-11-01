@@ -1,0 +1,35 @@
+header {
+    background-color: #333;
+    height: 50px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	line-height: 5rem;
+	text-align: right;
+}
+
+footer {
+    background-color: #222;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    text-transform: uppercase;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	line-height: 5rem;
+	text-align: left;
+}
