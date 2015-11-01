@@ -1,19 +1,14 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+    app = express();
 
-app.use(express.static(__dirname + '/public'));
 app.set('views engine', 'ejs'); 
+app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res){
-  res.render('pages/index.ejs');
-});
-
-app.post('/', function(req, res){
-  
-});
+app.use('/', require('./routes/routes'));
 
 app.get('*', function(req, res){
   res.sendFile('public/404.html' , { root : __dirname});
 });
 
+console.log(process.env.IP + ":" + process.env.PORT);
 app.listen(process.env.PORT, process.env.IP);
