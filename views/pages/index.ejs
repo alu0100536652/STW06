@@ -9,7 +9,11 @@
         <% include ../partials/header %>
     </header>
 
-   <% include ../partials/main %>
+    <% if(screen == true){ %>
+        <% include ../partials/form %>
+    <% } else { %>  
+        <% include ../partials/about %>
+    <% } %>
 
     <footer>
         <% include ../partials/footer %>

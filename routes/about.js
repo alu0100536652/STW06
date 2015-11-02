@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/', function(req, res){
-  res.render('pages/index.ejs', {screen: true});
+router.get('/about', function(req, res){
+  res.render('pages/index.ejs', {screen: false});
 });
 
 module.exports = router;
