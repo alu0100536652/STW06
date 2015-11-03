@@ -10,10 +10,6 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 
 * [Repositorio](https://github.com/alu0100536652/STW06)
 
-**Página de la práctica**
-
-* [Web](http://alu0100536652.github.io/STW06)
-
 **Página del autor**
 
 * [Web Author](http://alu0100536652.github.io)
