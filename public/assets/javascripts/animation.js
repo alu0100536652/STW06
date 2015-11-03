@@ -8,10 +8,6 @@ var ghost = setInterval(function(){
             img = 1;
             break;
         case 1:
-            document.getElementById('ghost').src = "assets/images/ghost.png";
-            img = 2;
-            break;
-        case 2:
             document.getElementById('ghost').src = "assets/images/ghost3.png";
             img = 0;
             break;

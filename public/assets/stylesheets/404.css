@@ -17,6 +17,16 @@ footer p {
     text-align: left;
 }
 
+a {
+    color: #262F34;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF4447;
+    text-decoration: underline;
+}
+
 img {
     width: 120px; 
     height: 100px; 

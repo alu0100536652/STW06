@@ -1,8 +1,15 @@
 var express = require('express'),
-    app = express();
+    app = express(),
+    bodyParser = require('body-parser'),
+    expressLayouts = require('express-ejs-layouts'),
+    path = require('path');
 
-app.set('views engine', 'ejs'); 
 app.use(express.static(__dirname + '/public'));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs'); 
+app.set('layout', 'layout');
+app.use(expressLayouts);
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', require('./routes/routes'));
 app.use('/', require('./routes/about'));

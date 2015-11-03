@@ -35,9 +35,11 @@
   "homepage": "https://github.com/alu0100536652/STW06#readme",
   "devDependencies": {
     "blanket": "^1.1.7",
+    "body-parser": "^1.14.1",
     "chai": "^3.3.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "express-ejs-layouts": "^2.0.0",
     "karma": "^0.13.14",
     "karma-chai": "^0.1.0",
     "karma-html2js-preprocessor": "^0.1.0",
@@ -45,6 +47,7 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "mocha": "^2.3.3",
     "nodemon": "^1.8.0",
+    "path": "^0.12.7",
     "phantomjs": "^1.9.18",
     "sinon": "^1.17.1"
   }

@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/about', function(req, res){
-  res.render('pages/index.ejs', {screen: false});
+  res.render('partials/about.ejs', {title: '- About'});
 });
 
 module.exports = router;
