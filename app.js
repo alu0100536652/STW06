@@ -13,7 +13,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', require('./routes/routes'));
 app.use('/', require('./routes/about'));
-app.use('/', require('./routes/error'));
+
+app.get('*', function(req, res){
+  res.sendFile('public/404.html' , { root : __dirname});
+});
 
 console.log(process.env.IP + ":" + process.env.PORT);
 app.listen(process.env.PORT, process.env.IP);
