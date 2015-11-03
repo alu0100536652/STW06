@@ -1,11 +1,12 @@
 header {
     background-color: #262F34;
     height: 50px;
+    margin-bottom: 5%;
 }
 
 nav a {
     margin-right: 20px;
-    color: #FCFCFA;
+    color: #FFF;
     text-transform: uppercase;
 	text-decoration: none;
 	font-size: 11px;
@@ -16,32 +17,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF4447;
-}
-
-footer {
-    background-color: #262F34;
-    position: fixed;
-    bottom: 0px;
-    height: 50px;
-    width: 100%;
-}
-
-footer a {
-    color: #FFF;
-    text-transform: uppercase;
-	text-decoration: none;
-	font-size: 11px;
-	font-weight: 600;
-	letter-spacing: .2rem;
-	line-height: 5rem;
-	text-align: left;
-}
-
-footer a:hover {
-    color: #FF4447;
+    color: #33C3F0;
 }
 
 span {
     color: green;
+}
+
+h4 {
+     color: #33C3F0;
+     font-weight: 400;
 }
